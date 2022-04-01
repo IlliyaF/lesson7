@@ -1,18 +1,18 @@
 public interface IntTable {
 
-    boolean add(String e); // Returns true if this set did not already contain the specified element
+    boolean add(Table e); // Returns true if this set did not already contain the specified element
 
     void clear();
 
-    boolean contains(String o);
+    boolean contains(Table o);
 
     boolean isEmpty();
 
-    boolean remove(String o); // Returns true if this set contained the specified element
+    boolean remove(Table o); // Returns true if this set contained the specified element
 
     int size();
 
-    String[] toArray();
+    Object[] toArray();
 
 
 }

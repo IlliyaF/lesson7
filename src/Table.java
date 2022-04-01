@@ -1,11 +1,11 @@
 import java.util.Objects;
 
 public class Table {
-String tableType;
-int tableQuantityBox;
-String tableColor;
-boolean tableIsFolding;
-String tableDateProduction;
+    String tableType;
+    int tableQuantityBox;
+    String tableColor;
+    boolean tableIsFolding;
+    String tableDateProduction;
 
     public Table(String tableType, int tableQuantityBox, String tableColor, boolean tableIsFolding, String tableDateProduction) {
         this.tableType = tableType;
@@ -14,10 +14,7 @@ String tableDateProduction;
         this.tableIsFolding = tableIsFolding;
         this.tableDateProduction = tableDateProduction;
 
-
     }
-
-
 
     @Override
     public boolean equals(Object o) {
@@ -42,4 +39,5 @@ String tableDateProduction;
                 ", tableDateProduction='" + tableDateProduction + '\'' +
                 '}';
     }
+
 }
